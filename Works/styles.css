@@ -1,0 +1,106 @@
+.địachỉ {
+    display: none;
+}
+.containers{
+/* margin-left: 200px; */
+margin-left: 100px;
+background: #fff;
+font-weight: 50px;
+font-size: 50px;
+padding: 20px;
+/* border: 1px solid cadetblue; */
+}
+.main{
+    font-size: 30px;
+    margin-left: 100px;
+    border:#000 solid;
+    padding-left: 300px;
+    font-weight:bold ;
+    font-family: 'Times New Roman', Times, serif;
+    /* animation: mymove 5s infinite; */
+}
+@keyframes mymove{
+    0% {    font-size: 30px;
+        margin-left: 100px;
+        border:#000 solid;
+        padding-left: 300px;
+        font-weight:bold ;
+        font-family: 'Times New Roman', Times, serif;}
+        100% {    font-size: 40px;
+            margin-left: 400px;
+            border:#000 solid;
+            padding-left: 400px;
+            font-weight:bold ;
+            font-family: 'Times New Roman', Times, serif;}
+        }
+        .material-icons{
+            margin: 20px;
+            color: brown;
+            background: none;
+            border: 3px solid brown;
+            border-radius: 50%;
+        }
+        .custom-map{
+    margin-top: -50px;
+    margin-left: 2cm;
+    
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.infor{
+    font-size: medium;font-weight: 100;
+    font-family: 'Times New Roman', Times, serift;
+    flex-wrap: 20%;
+    display: -moz-grid-line; 
+    background-color: aliceblue;
+    background-origin: inherit;
+    border-top-right-radius: 20%;
+    text-align: center;
+}
+#name{
+    font-weight: bold;
+    flex-wrap: 20;
+}
+a:hover{
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+    background-origin: padding-box;
+}
+.heart_action{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    transform: rotate(45deg);
+    position: relative;
+}
+.heart::before,.heart::after{
+    content: " ";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.heart::before{
+    top: -40px;
+    background-color: red;
+}
+.heart::after{
+    left: -40px;
+    background-color: red;
+}
+.heart_action{
+    animation: action 3s infinite;
+}
+@keyframes action {
+    10%{ transform: scale(1.1);}
+}
+.paragraph{
+    margin-left: 20rem;
+    width: 500px;
+    height: 100px;
+    overflow:scroll;
+    border: 2px solid #000;
+}
